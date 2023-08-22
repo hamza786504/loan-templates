@@ -119,6 +119,9 @@ body{
 .projected_payment_table_cover table tbody tr:first-child{
     background-color: var(--gray-light);
 }
+.info_section .row:first-child{
+    background-color: var(--gray-light);
+}
 
 
 
@@ -197,9 +200,21 @@ body{
 .p-0{
     padding: 0 !important;
 }
+.px-0{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+.px-1{
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+}
 .py-0{
     padding-top: 0 !important;
     padding-bottom: 0 !important;
+}
+.py-1{
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
 }
 .p-1{
     padding: 5px;
@@ -239,6 +254,9 @@ body{
 }
 .d-flex{
     display: flex;
+}
+.flex-1{
+    flex-grow: 1 !important;
 }
 .d-inline-flex{
     display: inline-flex;
