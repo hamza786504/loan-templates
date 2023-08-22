@@ -80,7 +80,7 @@ body{
     padding: 5px 10px;
     vertical-align: top;
 }
-.regular_table_cover > table > tbody > tr > td:first-child{
+.regular_table_cover > table > tbody > tr > td:first-child , .regular_table_cover > table > thead > tr > th:first-child{
     font-weight: bold;
     min-width: 210px;
     max-width: 210px;
@@ -96,7 +96,7 @@ body{
     font-size: 10px;
 }
 .weight_normal{
-    font-weight: 500;
+    font-weight: 500 !important;
 }
 .valign_bottom{
     vertical-align: bottom !important;
@@ -106,6 +106,9 @@ body{
 }
 .border_right_none{
     border-right: 0 !important;
+}
+.border_top_bold{
+    border-top: 2px solid black;
 }
 .valign_middle{
     vertical-align: middle !important;
@@ -126,7 +129,7 @@ body{
         width: 75%;
     }  
     .content{
-        max-width: 830px;
+        width: 830px;
         padding: 3.4rem 4rem;
         margin: auto;
         padding-bottom: 0.8rem !important;
